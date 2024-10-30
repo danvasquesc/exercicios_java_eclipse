@@ -11,25 +11,26 @@ import java.util.Scanner;
 public class CalculadoraBatimentosCardiacos {
 
 	public static void main(String[] args) {
-		
+
 		Locale.setDefault(Locale.US);
-		
+
 		int idade;
 		double segPorAno, totalBatimentos;
 
 		try (Scanner sc = new Scanner(System.in)) {
-			
+
 			System.out.print("Idade em anos: ");
 			idade = sc.nextInt();
-			
-			/*pode-se atribuir os segundos direto 
-			 * a variavel, pois é um valor fixo, mas preferi fazer a conta*/
+
+			/*
+			 * pode-se atribuir os segundos direto a variavel, pois é um valor fixo, mas
+			 * preferi fazer a conta
+			 */
 			segPorAno = 365.25 * 24 * 60 * 60;
-			
+
 			totalBatimentos = idade * segPorAno;
-			
+
 			System.out.printf("O coração bateu %.0f vezes", totalBatimentos);
-			
 
 		}
 
