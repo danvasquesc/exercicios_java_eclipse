@@ -1,1 +1,1 @@
-# exercicios-java-eclipse
+📂 Exercícios de Estrutura Sequencial em Java na IDE Eclipse
