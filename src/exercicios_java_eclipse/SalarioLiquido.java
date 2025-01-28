@@ -1,3 +1,9 @@
+/*Faça um algoritmo que calcule o salário líquido de um trabalhador em função da
+quantidade de horas por dia, do preço da hora trabalhada e dos dias trabalhados no
+mês.
+Considerar um desconto de 21% sobre o salário bruto.*/
+
+
 package exercicios_java_eclipse;
 
 import java.util.Scanner;
