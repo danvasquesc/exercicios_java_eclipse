@@ -27,7 +27,6 @@ public class CalculadoraBatimentosCardiacos {
 			 * preferi fazer a conta
 			 */
 			segPorAno = 365.25 * 24 * 60 * 60;
-
 			totalBatimentos = idade * segPorAno;
 
 			System.out.printf("O coração bateu %.0f vezes", totalBatimentos);
